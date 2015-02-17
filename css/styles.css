@@ -1,0 +1,10 @@
+.package-image {
+  border: 2px;
+  border-color: #000000;
+  border-style: solid;
+  height: 80px;
+  width: 80px;
+  margin-left: 100px;
+  text-align: center;
+  padding-top: 50px;
+}

@@ -14,47 +14,37 @@
       <div class="row">
         <div class="col-md-6">
           <h2>Enter your dimensions:</h2>
-          <form id="new-parcel">
+          <form id="new-package">
             <div class="form-group">
-              <label for="new-first-name">First name</label>
-              <input type="text" class="form-control" id="new-first-name">
+              <label for="new-weight">Weight</label>
+              <input type="text" class="form-control" id="new-weight">
             </div>
             <div class="form-group">
-              <label for="new-last-name">Last name</label>
-              <input type="text" class="form-control" id="new-last-name">
+              <label for="new-height">Height</label>
+              <input type="text" class="form-control" id="new-height">
             </div>
             <div class="form-group">
-              <label for="new-street">Street</label>
-              <input type="text" class="form-control" id="new-street">
+              <label for="new-length">Length</label>
+              <input type="text" class="form-control" id="new-length">
             </div>
             <div class="form-group">
-              <label for="new-city">City</label>
-              <input type="text" class="form-control" id="new-city">
+              <label for="new-miles">Miles</label>
+              <input type="text" class="form-control" id="new-miles">
             </div>
-            <div class="form-group">
-              <label for="new-state">State</label>
-              <input type="text" class="form-control" id="new-state">
-            </div>
-            <div class="form-group">
-              <label for="new-zip">ZIP Code</label>
-              <input type="text" class="form-control" id="new-zip">
-            </div>
-            <button type="submit" class="btn">Add</button>
+            <button type="submit" class="btn">Calculate</button>
           </form>
-          <h2>Contacts:</h2>
-          <ul class="fa-ul" id="contact-list">
 
-          </ul>
+          <div class="results">
+          <h2>Shipping Cost:</h2>
+            <p> Your package costs: <span class="total"></span> bitcoin! </p>
         </div>
-        <div class="col-md-6">
-          <div id="show-contact">
-            <h2> </h2>
-            <p>First name: <span class="first-name"></span></p>
-            <p>Last name: <span class="last-name"></span></p>
-            <p>Address: <span class="address"></span></p>
-          </div>
+
         </div>
       </div>
+    </div>
+    <br>
+    <div class="package-image">
+      Your package!
     </div>
   </body>
 </html>
