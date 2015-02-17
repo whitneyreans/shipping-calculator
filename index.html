@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shipping Cost Calculatorr</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Made with
+    Scrolling Nav - Start Bootstrap Template
+    www.startbootstrap.com
+    -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Shipping Calculator</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pForm">Package Form</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cost">Cost</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="white-sq">
+                    <h1>Shipping Calculator</h1>
+                    <p><strong>Usage Instructions:</strong> enter your package dimensions to determine the cost of shipping it.</p>
+                    <a class="btn btn-default page-scroll" href="#pForm">Click Me to Scroll Down!</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="pForm" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <form id="new-package">
+                    <div class="form-group">
+                      <label for="new-weight">Weight (lbs)</label>
+                      <input type="text" class="form-control" id="new-weight">
+                    </div>
+                    <div class="form-group">
+                      <label for="new-height">Height (in)</label>
+                      <input type="text" class="form-control" id="new-height">
+                    </div>
+                    <div class="form-group">
+                      <label for="new-length">Length (in)</label>
+                      <input type="text" class="form-control" id="new-length">
+                    </div>
+                    <div class="form-group">
+                      <label for="new-miles">Miles</label>
+                      <input type="text" class="form-control" id="new-miles">
+                    </div>
+                    <button type="submit" class="btn page-scroll" href="#cost">Calculate</button>
+                  </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="cost" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="results">
+                      <div>
+                        <h2>Shipping Cost:</h2>
+                          <p> Your package costs: <span class="total"></span> bitcoin! </p>
+                      </div>
+                      <div class="package-image">
+                        Your package!
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

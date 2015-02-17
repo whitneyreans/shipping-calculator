@@ -4,11 +4,28 @@
   border-style: solid;
   height: 80px;
   width: 80px;
-  margin-left: 100px;
+  margin: 0 auto;
   text-align: center;
-  padding-top: 10%;
+  /*padding-top: 10%;*/
 }
-
+/*
 .results {
   display: none;
+}*/
+
+
+section#intro {
+  background-image: url('http://thenextweb.com/wp-content/blogs.dir/1/files/2014/02/107176964.jpg');
+  background-size: contain;
+}
+
+.white-sq {
+  background-color: rgba(255,255,255, .7);
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+section#cost {
+  background-image: url('http://maritime-connector.com/ships_uploads/maersk_stockholm-9352042-container_ship-8-168378.jpg');
+  background-size: cover;
 }

@@ -51,6 +51,11 @@ $(document).ready(function() {
       $(".package-image").css('width', '300');
     }
 
+     $('html, body').stop().animate({
+         scrollTop: $("#cost").offset().top
+     }, 1500, 'easeInOutExpo');
+
+
 
 
 
