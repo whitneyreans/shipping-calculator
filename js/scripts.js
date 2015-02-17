@@ -32,7 +32,7 @@ $(document).ready(function() {
     var total = newPackage.calculation();
 
     $(".total").text(total);
-
+    $(".results").show();
 
     if (total === 0) {
       $(".package-image").css('height', '80');
@@ -50,6 +50,8 @@ $(document).ready(function() {
       $(".package-image").css('height', '300');
       $(".package-image").css('width', '300');
     }
+
+
 
 
   });
